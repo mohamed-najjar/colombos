@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 20 14% 4%;
+  --card: 24 9% 10%;
+  --muted: 240 4.8% 95.9%;
+}
+
+html, body, #__next { height: 100%; }
+
+body {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+.card {
+  @apply rounded-2xl bg-neutral-900/70 border border-neutral-800 shadow-xl;
+}
+
+.card-header {
+  @apply px-4 pt-4 text-sm font-semibold uppercase tracking-wider text-neutral-400;
+}
+.card-body {
+  @apply p-4;
+}
+
+.badge {
+  @apply inline-flex items-center gap-1 rounded-full border border-neutral-700 bg-neutral-800 px-2 py-0.5 text-xs;
+}
