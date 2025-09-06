@@ -477,6 +477,9 @@ export default function Page() {
           </div>
         </div>
       )}
+            <footer className="text-center text-xs text-neutral-500 mt-8">
+        © {new Date().getFullYear()} <a href="https://github.com/mohamed-najjar" target='_blank'>Mohamed Najjar</a>. All rights reserved.
+      </footer>
     </div>
   );
 }
